@@ -4,3 +4,6 @@
 
 ## Activity 1
 ![Activity 1](./images/Activity%201.png)
+
+## Activity 2
+![Activity 2](./images/Activity%202.png)
