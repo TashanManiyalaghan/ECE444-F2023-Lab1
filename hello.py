@@ -8,7 +8,7 @@ from wtforms.validators import DataRequired, Email
 
 class Form(FlaskForm):
     name = StringField('What is your name?', validators=[DataRequired()])
-    email = StringField('What is your UofT email?', validators=[DataRequired(), Email()])
+    email = StringField('What is your UofT Email address?', validators=[DataRequired(), Email()])
     submit = SubmitField('Submit')
 
 app = Flask(__name__)
